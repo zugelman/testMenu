@@ -1,0 +1,1 @@
+export { getTree } from './tree';

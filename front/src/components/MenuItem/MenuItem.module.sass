@@ -1,0 +1,29 @@
+.wrapitem
+	width: max-content
+	height: 42px
+	border: 1px solid #000
+	border-radius: 4px
+	padding: 8px 16px
+	display: flex
+	flex-direction: row
+	justify-content: flex-start
+	align-items: center
+	text-decoration: none
+	background-color: #fff
+	&.active
+		background-color: #CAF9FF
+	& > :nth-child(n+2)
+		margin-left: 8px
+
+.iconfolder
+	width: 24px
+	height: 24px
+	object-position: center
+	object-fit: fill
+
+.textitem
+	font-family: sans-serif
+	font-size: 14px
+	font-weight: 400
+	line-height: 100%
+	color: #000
