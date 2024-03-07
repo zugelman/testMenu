@@ -19,8 +19,7 @@ export const Layout = () => {
 				const treeData = await getTree({path: location.pathname});
 				dispatch(setTreeData(treeData));
 			}catch(error){
-				console.log(error);
-				
+				console.log(error);				
 			};					
 		})();
 	}, [location]);
